@@ -3,6 +3,7 @@
     padding: 0px;
     box-sizing: border-box;
 }
+
 body {
   font-size: 10px;
   font-family: 'Open Sans Condensed', sans-serif;
@@ -633,12 +634,12 @@ h1 {
   position: relative;
   text-decoration: none; }
 
+  #data a.active{
+    color: rgb(255, 230, 0);
+  }
+
 #navbar a:hover, #data a:hover, #controls label:hover {
   color: #FFF; }
-
-#data a:focus {
-  color: rgb(70, 233, 255); }
-
 
 #data, #controls {
   z-index: 99;
@@ -727,9 +728,6 @@ h1 {
 
 #neptune .planet {
   background-image: url(./images/icons8-neptune-planet-50.png); }
-
-
-
 
 
 /*RWD układ do zmiany oczywiście tu tylko taki poglądowy RWD*/
