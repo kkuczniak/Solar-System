@@ -82,8 +82,13 @@ animation-name: suborbit; }
   animation-iteration-count: infinite;
   animation-timing-function: linear; }
 
+.planet:hover{
+  cursor: pointer;
+}
 
-
+.planet--active{
+  border: 2px solid rgb(255, 238, 0);
+}
 
 
 
