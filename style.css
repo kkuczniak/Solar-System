@@ -600,8 +600,12 @@ margin-left: -16em; }
 .hide-UI #controls {
   /* opacity: 0!important; */
   opacity: 1;
-  margin: -1.2em 0 0 0.1em;
+  margin: -1.2em 0 0 0.2em;
   color: white;
+}
+
+.hide-infos{
+  opacity: 0!important;
 }
 
 .hide-UI #data {
